@@ -144,7 +144,10 @@ const AuthScreen = () => {
            </div>
 
            <h1 className="text-3xl font-black text-slate-800 tracking-tight">{isLogin ? 'Xin Chào!' : 'Tạo Tài Khoản'}</h1>
-           <p className="text-slate-500 text-sm font-medium mt-2">Hệ thống điểm danh thông minh AI</p>
+          <p className="text-slate-500 text-sm font-medium">Hệ thống điểm danh thông minh AI</p>
+    <p className="text-slate-500 text-xs mt-1">
+        Tác giả: Duy Hạnh | Liên hệ: <a href="tel:0868640898" className="text-blue-600 hover:underline">0868.640.898</a>
+    </p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
