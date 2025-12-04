@@ -1,0 +1,7 @@
+{
+  "name": "Điểm Danh AI",
+  "description": "Ứng dụng điểm danh học sinh thông minh sử dụng nhận diện khuôn mặt qua Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
