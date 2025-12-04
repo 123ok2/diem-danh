@@ -143,7 +143,7 @@ const AuthScreen = () => {
               </div>
            </div>
 
-           <h3 className="text-3xl font-black text-slate-800 tracking-tight">{isLogin ? 'PTDTBT THCS THU CÚC' : 'Tạo Tài Khoản'}</h3>
+           <h1 className="text-1xl font-black text-slate-800 tracking-tight">{isLogin ? 'PTDTBT THCS THU CÚC' : 'Tạo Tài Khoản'}</h1>
 
 <p className="text-slate-500 text-sm font-medium">Hệ thống điểm danh thông minh</p>
    <p className="text-slate-500 text-xs mt-1">
